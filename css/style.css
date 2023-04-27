@@ -18,7 +18,7 @@ a {
 }
 
 .container {
-  background-color: #ccc;
+  /* background-color: #ccc; */
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
@@ -30,8 +30,17 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.header{
+  background-color:  #151515;;
+}
+
+.header-main {
+  /* background-color: transparent; */
+}
+
 .header__inner {
   padding-top: 40px;
+  padding-bottom: 45px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
